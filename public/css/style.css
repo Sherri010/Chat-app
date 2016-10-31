@@ -1,7 +1,11 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font: 13px Helvetica, Arial; }
-#wrapper{ width:60%; height: 600px;overflow: scroll; }
-form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+body { font: 13px Helvetica, Arial;background:#19334d; color:#8bb3da;font-family: 'PT Sans Caption', sans-serif; }
+h2 {text-align: center;margin:50px;font-family: 'Coiny', cursive;font-size: 30px;}
+.container {padding:100px;}
+#wrapper{overflow-y: scroll; margin:0 auto; width:50%; height: 400px;border:1px solid grey; position: relative;background: #ecf2f9;color:#000;}
+.chat-box{}
+.input-section{position: absolute; bottom: 0;width: 100%;}
+form { background: #000; padding: 3px;width: 100%; }
 form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
 form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
 #messages { list-style-type: none; margin: 0; padding: 0; }

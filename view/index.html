@@ -3,13 +3,24 @@
   <head>
     <title>Chat-App</title>
   </head>
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny|PT+Sans+Caption" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <body>
-    <div id="wrapper">
-      <ul id="messages"></ul>
-      <form action="">
-        <input id="m" autocomplete="off" /><button>Send</button>
-      </form>
+    <div class="container">
+    <h2> Messenger </h2>
+      <div id="wrapper">
+        <div class="chat-box">
+          <div class="board">
+            <ul id="messages"></ul>
+          </div>
+          <div class="input-section">
+            <form action="">
+              <input id="m" autocomplete="off" /><button>Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
