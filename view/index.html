@@ -6,22 +6,33 @@
   <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Coiny|PT+Sans+Caption" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <body>
-    <div class="container">
 
+  <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <body>
+    <!-- <div class="container">
+
+    <div id="code"></div>
     <p id="username"></p>
     <h2> Messenger </h2>
       <div id="wrapper">
         <div class="chat-box">
-          <div class="board">
+           <div class="board">
             <ul id="messages"></ul>
-          </div>
-          <div class="input-section">
+          </div> -->
+          <!-- <div class="input-section">
             <form action="">
-              <input id="m" autocomplete="off" placeholder="Type here..." />
+              <textarea id="m" autocomplete="off" placeholder="Type here..." > </textarea>
               <button>Send</button>
             </form>
-          </div>
+
+
+          </div> -->
+        <div id="shared-board">
+
         </div>
         <div class="status_board">
          <ul id="status">
@@ -31,10 +42,9 @@
     </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-  <script src="/js/script.js"></script>
-  <script src="/codemirror/mode/javascript/javascript.js"></script><!-- -->
   <script src="/codemirror/lib/codemirror.js"></script>
-
+  <script src="/codemirror/mode/javascript/javascript.js"></script><!-- -->
+  <script src="/js/script.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script> -->
   </body>
 </html>
